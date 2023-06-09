@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(simple\ img\ .jpg);
+  background-size: 200vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+nav {
+  width: 100%;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.logo {
+  text-align: center;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  margin-right: 10px;
+}
+.menu {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+.menu a {
+  color: lightseagreen;
+  text-decoration: none;
+  font-weight: bold;
+  width: 25%;
+}
+.menu a:first-child {
+  color: red;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+  background-image: url("./bg.jpg");
+  background-size: cover;
+}
+
+section {
+  padding-top: 40px;
+}
+section h3 {
+  font-size: 35px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-shadow: 1px 2px 2px black;
+  margin-bottom: 20px;
+}
+section a {
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.btnone {
+  background: #fff;
+  color: red;
+  margin-right: 10px;
+}
+
+.btnone {
+  background: red;
+  color: white;
+}
